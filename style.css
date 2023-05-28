@@ -1,0 +1,38 @@
+body{
+    font-family:'Courier New', Courier, monospace;
+    color: #CCCCCC;
+    background: #000000;
+    border: 3px double #CCCCCC;
+    padding: 10px;
+    width: 800px;
+    min-height: 600px;
+    height: auto;
+    margin: auto;
+
+}
+
+#optionButtons{
+    margin:auto;
+    display: flex;
+    gap:1rem;
+
+}
+
+button{
+    font-family:'Courier New', Courier, monospace;
+    color: #CCCCCC;
+    background: #000000;
+    border: 3px double #CCCCCC;
+    flex: auto;
+    box-sizing: border-box;
+}
+
+INPUT{
+    font-family:'Courier New', Courier, monospace;
+    color: #CCCCCC;
+    background: #000000;
+    border: 3px double #CCCCCC;  
+    width: 100%;
+    flex: 2 1 auto;
+    box-sizing: border-box;
+}
